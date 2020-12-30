@@ -148,7 +148,7 @@ async def ddl_call_back(bot, update):
                 if tg_send_type == "vm":
                     height = width
                 # resize image
-                ref ask : https://t.me/filmsandtrends_owner
+        
                 # https://stackoverflow.com/a/21669827/4723940
                 Image.open(thumb_image_path).convert(
                     "RGB").save(thumb_image_path)
